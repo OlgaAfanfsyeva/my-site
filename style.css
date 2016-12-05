@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin:10px;
+}
+
+body {
+	 
+	background:#FFFFaa url(green1.png);
+	
+	}
+
+li {
+	list-style-image: url(knitting24.png)
+}
+
+h1 {
+	text-align: center ;
+	font-family:"Times New Roman";
+	font-style: italic;
+		font-size: 30px;
+	color: #ca2e0f;
+
+
+}
+
+h2{
+	color:#cc462c;
+}
+
+h3{
+	color:#a44900;
+}
+p{
+	color: green;
+}
+
+#fon {
+	background: #FFFFaa url(13-1.png) ; 
+}
+
+nav{
+	border-color: green;
+	border-style: ridge;
+	border-width: 4px;
+	background: #05b00c;
+	background: radial-gradient(#26781e, #26b01e); 
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center ;
+	font-family: "Monotype Corsiva";
+	font-size:24px;
+	color: red;
+
+}
+
+nav a:hover {
+	color:#FFF;
+}
+
+.menu >a {
+	color: red;
+}
+
+img  {
+	border-color: green;
+	border-style: dotted;
+	border-width:3px;
+}
+
+img:hover {
+	border: none;
+}
+
+hr {
+	border-color: green;
+	border-style: ridge;
+	border-width: 2px;
+	
+}
