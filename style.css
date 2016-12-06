@@ -4,10 +4,8 @@
 }
 
 body {
-	 
 	background:#FFFFaa url(green1.png);
-	
-	}
+}
 
 li {
 	list-style-image: url(knitting24.png)
@@ -19,8 +17,6 @@ h1 {
 	font-style: italic;
 		font-size: 30px;
 	color: #ca2e0f;
-
-
 }
 
 h2{
@@ -41,13 +37,12 @@ p{
 .conteyner {
 	border-color: green;
 	border-style: ridge;
-	border-width: 10px;
-	
+	border-width: 10px 10px 5px;
 	background: #05b00c;
-	background: radial-gradient(#26781e, #26b01e); 
+	background: radial-gradient(#26b01e,#26781e); 
 	margin: 0;
-
-	
+	width: 100%;
+	height: 30%;
 	text-align: center ;
 	font-family: "Monotype Corsiva";
 	font-size:24px;
@@ -60,11 +55,14 @@ p{
 }	
 
 .conteyner img {
-	margin-left: 2px
+	
 	border-color: none;
 	border-style: none;
+	margin: 15px;
 	float : left;
-	
+	width: 60px;
+	height: 60px;
+		
 }
 
 a:hover {
@@ -91,10 +89,27 @@ nav a:hover {
 	color:#fae6b4;
 }
 
-.menu >a {
+.menu {
+	border-color: green;
+	border-style: ridge;
+	border-width: 5px 10px 10px;
+	background: #05b00c;
+	
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center ;
+	font-family: "Monotype Corsiva";
+	font-size:24px;
 	color: red;
 }
 
+.menu >a {
+	color: red;
+}
+.menu a:hover {
+	color:#fae6b4;
+}
 
 img  {
 	border-color: green;
@@ -111,4 +126,20 @@ hr {
 	border-style: ridge;
 	border-width: 2px;
 	
+}
+
+.box{
+	
+	background:  url("Рогожка 3.jpg");
+	background-attachment:;
+	margin: 0;
+	width: 100%;
+	height: 800px
+	text-align: justify;
+	font-family:Times;
+	font-size:18px;
+	color: black;
+}
+.box >p {
+	color:black;
 }
