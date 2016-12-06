@@ -5,6 +5,7 @@
 
 body {
 	background:#FFFFaa url(green1.png);
+
 }
 
 li {
@@ -15,7 +16,7 @@ h1 {
 	text-align: center ;
 	font-family:"Times New Roman";
 	font-style: italic;
-		font-size: 30px;
+	font-size: 30px;
 	color: #ca2e0f;
 }
 
@@ -35,14 +36,16 @@ p{
 }
 
 .conteyner {
+
 	border-color: green;
 	border-style: ridge;
 	border-width: 10px 10px 5px;
 	background: #05b00c;
 	background: radial-gradient(#26b01e,#26781e); 
 	margin: 0;
+	padding-top:20px;
 	width: 100%;
-	height: 30%;
+	height: 90px;
 	text-align: center ;
 	font-family: "Monotype Corsiva";
 	font-size:24px;
@@ -55,13 +58,14 @@ p{
 }	
 
 .conteyner img {
-	
+	background: #05b00c
 	border-color: none;
 	border-style: none;
-	margin: 15px;
+	padding-top:0;
+	margin:20;
 	float : left;
-	width: 60px;
-	height: 60px;
+	width: 90px;
+	height: 90px;
 		
 }
 
@@ -90,11 +94,12 @@ nav a:hover {
 }
 
 .menu {
+
 	border-color: green;
 	border-style: ridge;
 	border-width: 5px 10px 10px;
 	background: #05b00c;
-	
+	padding-top:20px;
 	margin: 0;
 	width: 100%;
 	height: 50px;
@@ -128,18 +133,39 @@ hr {
 	
 }
 
-.box{
+.box-sizing{
+	width: 100%;
+	height: 500px;
+	border-color: green;
+	border-style: ridge;
+	border-width: 2px;
 	
 	background:  url("Рогожка 3.jpg");
-	background-attachment:;
+	background-attachment:fixed;
 	margin: 0;
-	width: 100%;
-	height: 800px
 	text-align: justify;
 	font-family:Times;
-	font-size:18px;
+	font-size:20px;
 	color: black;
 }
-.box >p {
+.box-sizing >p {
 	color:black;
+}
+
+.box-sizing p:first-letter{
+	color:red;
+	font-size: 45px;
+	font-family: Times;
+	font-style: italic;
+}
+
+.box-sizing img{
+	background-color: none;
+	border-color: none;
+	border-style: none;
+	margin: 15px;
+	float : left;
+	width: 300px;
+	height:300px;
+	
 }
